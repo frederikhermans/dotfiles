@@ -28,3 +28,12 @@ do
         ln -vs $PWD/$FILE $HOME/$FILE
     fi
 done
+
+mkdir -p $HOME/.ipython
+if [ -L $HOME/.ipython/profile_marsta ] && [ "`readlink $HOME/.ipython/profile_marsta`" == "$PWD/profile_marsta" ]
+then
+    echo profile_marsta already installed.
+else
+    backup $HOME/.ipython/profile_marsta
+    ln -vs $PWD/profile_marsta $HOME/.ipython/profile_marsta
+fi
