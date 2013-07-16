@@ -3,7 +3,9 @@ import sys
 import numpy
 import tables
 
-sys.path.append('/home/frederik/testbed/marsta/analysis')
+import os.path
+
+sys.path.append(os.path.expanduser('~') + '/testbed/marsta/analysis')
 import data_model
 import load
 import match
