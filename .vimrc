@@ -15,3 +15,9 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+
+set number
+set ruler
+
+set modeline
+set modelines=5
