@@ -21,3 +21,5 @@ set ruler
 
 set modeline
 set modelines=5
+
+filetype plugin on
