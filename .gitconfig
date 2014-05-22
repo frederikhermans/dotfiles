@@ -1,3 +1,7 @@
 [user]
-        name = Frederik Hermans
-        email = frederik.ac.hermans@gmail.com
+    name = Frederik Hermans
+    email = frederik.ac.hermans@gmail.com
+[color]
+	ui = auto
+[alias]
+    wdiff = diff --color-words
